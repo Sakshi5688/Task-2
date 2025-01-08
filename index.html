@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Story Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#story">Interactive Story</a></li>
+    </ul>
+  </nav>
+
+  <section id="intro">
+    <h1>Welcome to the Interactive Story Platform</h1>
+    <p>Create and share stories where every choice shapes the outcome.</p>
+  </section>
+
+  <section id="story">
+    <h2>Interactive Story</h2>
+    <p>You find yourself in a forest. What do you do?</p>
+    <button onclick="choosePath('explore')">Explore</button>
+    <button onclick="choosePath('rest')">Rest</button>
+    <div id="story-output"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
